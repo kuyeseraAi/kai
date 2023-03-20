@@ -6,37 +6,15 @@ permalink: /people/
 
 ## Core Members
 
-Dr. Amelia Taylor - 
+The lead is Dr. Amelia Taylor. We have a core team of developers and data analysis: Gonjetso Chinyama MSc, Moses Gwaza, Chimwemwe Chamangwana, Grey Mengezi, Evelyn Chapuma. We also work with external resource persons for specific tasks. 
 
-Gonjetso Chinyama, MSc 
 
-Moses Gwaza
+Dr. Amelia Taylor - lead researcher.
+Gonjetso Chinyama, MSc - Associate Researcher.
+Developers: Moses Gwaza, Chimwemwe Chamangwana, Grey Mengezi
+Junior Data Analyst: Evely Chapuma
+Resource Person (languages): Paul Kazembe
 
-Chimwemwe Chamangwana
+Associate Members from MUBAS: Eva Mfutso-Bengo (law), Kelvin Hope Chilunga (imaging and drones).
 
-Grey Mengezi
 
-## Associate Members
-
-Eva Mfutso-Bengo 
-Kelvin Hope Chilunga
-
-## Partners
-
-1. At the University of Mauritius: Dr. Maleika, Dr. Gobin, Dr. Nuzhah
-2. At IIITB: G R Sinha, PhD, Adjunct Professor, International Institute of Information Technology Bangalore (IIITB), India
-
-## Institutional Partners
-
-PHIM
-The Malawi Judiciary
-LSHTM
-APHRC
-Masakhane
-
-## Funders and Suporters
-
-IDRC
-Welcome Trust
-AI4D
-Deep Learning Indaba
