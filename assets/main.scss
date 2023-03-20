@@ -1,6 +1,9 @@
+---
+#header
+---
 @import "minima";
 .site-title::before {
-  content: url("KAIlogo_50.png");
+  content: url("../assets/KAIlogo_50.png");
   display: inline-block;
   position: relative;
   width: 10px !important;
