@@ -8,10 +8,9 @@ The lead is Dr. Amelia Taylor. We have a core team of developers and data analys
 
 Dr. Amelia Taylor - lead researcher.
 Gonjetso Chinyama, MSc - Associate Researcher.
-Developers: Moses Gwaza, Chimwemwe Chamangwana, Grey Mengezi
+Data-dev and Developers: Moses Gwaza, Chimwemwe Chamangwana, Grey Mengezi
 Junior Data Analyst: Evely Chapuma
 Resource Person (languages): Paul Kazembe
 
-Associate Members from MUBAS: Eva Mfutso-Bengo (law), Kelvin Hope Chilunga (imaging and drones).
-
+Associate Members: Eva Mfutso-Bengo (law at MUBAS), Kelvin Hope Chilunga (lecturer at MUBAS imaging and drones), Macphail Magwira (AI enthusiast and developer).
 
