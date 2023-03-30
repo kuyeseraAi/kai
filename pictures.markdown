@@ -6,9 +6,9 @@ permalink: /pictures/
 
 "Zithunzi" means pictures in Chichewa. Here are some pictures from previous events.
 
-![INSPIRE NETWORK AGM @ APHRC February 13-14, 2023](https://drive.google.com/uc?id=1smIOGcIlbY5ejF-LIX0LaDfGAURh-ZVo){:class="img-responsive"}{: .align-left}**The INSPIRE NETWORK AGM Feb 2023 @ APHRC Nairobi**
+![INSPIRE NETWORK AGM @ APHRC February 13-14, 2023](https://ik.imagekit.io/ucqyxekmz/AI_Web_Images/InspireNetworkAGM_Nairobi_Optimised.JPG?updatedAt=1680165779367){:class="img-responsive"}{: .align-left}**The INSPIRE NETWORK AGM Feb 2023 @ APHRC Nairobi**
 
-![THE GAL Workshop With Gender At Work](https://drive.google.com/uc?id=1wFv6xApxARk7L7967N6VkxYj1FIinBdK){:class="img-responsive"}{: .align-left}**The GAL Workshop, Feb 2023 @ Nairobi**
+![THE GAL Workshop With Gender At Work](https://ik.imagekit.io/ucqyxekmz/AI_Web_Images/GALWorkshopNairobiFeb2023_Optimised.jpg?updatedAt=1680165777435){:class="img-responsive"}{: .align-left}**The GAL Workshop, Feb 2023 @ Nairobi**
 
 
 
