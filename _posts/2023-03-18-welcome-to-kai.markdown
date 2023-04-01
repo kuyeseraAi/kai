@@ -25,4 +25,5 @@ After several years lecturing at MUBAS and engaging in research, the time came t
 
 2022 - We get another grant with the INSPIRE Network to work on data science and health informatics.
 
-2023 - I form the KuyeseraAI lab.
+Dec 2022 - KuyeseraAI lab is formed.
+
