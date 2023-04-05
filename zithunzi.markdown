@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Pictures
-permalink: /pictures/
+title: Zithunzi
+permalink: /zithunzi/
 ---
 
 "Zithunzi" means pictures in Chichewa. Here are some pictures from previous events.

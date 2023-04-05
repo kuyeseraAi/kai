@@ -42,7 +42,7 @@ header_pages:
   - people.markdown
   - publications.markdown
   - blog.html
-  - pictures.markdown
+  - zithunzi.markdown
 
 
 # Exclude from processing.
