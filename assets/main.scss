@@ -8,3 +8,40 @@
   position: relative;
   width: 10px !important;
 }
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 8px;
+}
+
+.row{
+  text-align: center !important;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.team-images{
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;  
+}
+
+.container {
+  padding: 0 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .column{
+    width: 100%;
+  }
+  .team-images{
+    height: 120px;
+    object-fit: cover;
+  }
+  
+}

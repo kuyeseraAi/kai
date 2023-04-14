@@ -39,7 +39,7 @@ header_pages:
   - about.markdown
   - projects.markdown
   - events.markdown
-  - people.markdown
+  - people.html
   - publications.markdown
   - blog.html
   - zithunzi.markdown
