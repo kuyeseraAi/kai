@@ -1,0 +1,57 @@
+---
+#header
+---
+@import "minima";
+.site-title::before {
+  content: url("KAIlogo_50.png");
+  display: inline-block;
+  position: relative;
+  width: 10px !important;
+}
+
+.row{
+  display: flex;
+  text-align: center !important;
+  justify-content: center;
+}
+
+.column{
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+  margin-right: 8px;
+}
+.description{
+  font-weight: bold;
+}
+
+.team-container h1{
+  font-size: 250%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.team-images{
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;  
+}
+
+.container {
+  padding: 0 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .column{
+    width: 100%;
+  }
+  .team-images{
+    height: 120px;
+    object-fit: cover;
+  }
+  
+}
