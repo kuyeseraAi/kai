@@ -9,9 +9,15 @@
   width: 10px !important;
 }
 
-.column {
+.row{
+  display: flex;
+  text-align: center !important;
+  justify-content: center;
+}
+
+.column{
   float: left;
-  width: 30%;
+  width: 33.3%;
   padding: 8px;
   margin-right: 8px;
 }
@@ -19,8 +25,8 @@
   font-weight: bold;
 }
 
-.row{
-  text-align: center !important;
+.team-container h1{
+  font-size: 250%;
 }
 
 .row::after {
