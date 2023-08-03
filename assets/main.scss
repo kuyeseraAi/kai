@@ -26,7 +26,7 @@
 }
 
 .team-container h1{
-  font-size: 250%;
+  font-size: 200%;
 }
 
 .row::after {
@@ -38,7 +38,11 @@
 .team-images{
   height: 220px;
   object-fit: cover;
-  border-radius: 50%;  
+  border-radius: 50%; 
+}
+#chimwemwe{
+  width: 200px;
+  height: 200px;
 }
 
 .container {

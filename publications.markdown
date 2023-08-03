@@ -6,7 +6,7 @@ permalink: /publications/
 
 **PRESENTATIONS AND ARTICLES**
 
-| Title      | Platform | Presenter / Author     |
+| Title      | Event / Venue | Presenter / Author     |
 | :---        |    :----:   |     :---:     |
 | <a class="page-link" href="https://docs.google.com/presentation/d/1H_-XLWP0J3WfhdAC57n5nINHroAkClrh/edit?usp=drive_link&ouid=103243696572721185208&rtpof=true&sd=true" target="_blank">Lessons and Applications from utilising OMOP to Malawi Data</a> | INSPIRE PEACH Dissemination Workshop: 26 - 27 June 2023, Blantyre | Dr. Amelia Taylor and Moses Gwaza  |
 | <a class="page-link" href="https://docs.google.com/presentation/d/1dYhoBzX2t0ofQlopIXEP2IMrsc_2Tu6S/edit?usp=drive_link&ouid=103243696572721185208&rtpof=true&sd=true" target="_blank">Insights into COVID-19 Data Collection and Management in Malawi</a> | INSPIRE PEACH Dissemination Workshop: 26 - 27 June 2023, Blantyre | Dr. Amelia Taylor and Dr. Thokozani Liwewe  |
