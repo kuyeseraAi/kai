@@ -17,14 +17,16 @@ It is **new** because while significant progress has been made, the initial ques
 McCarthy wrote in 1955: "The study (of AI) is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it." Hence, in the early days as today, the emphasis was on developing programming languages / algorithms and formal systems for knowledge representation and reasoning that can equip machines with AI. 
 
 The Turing test that any intelligent machine should be capable of passing, required that AI acquires the following capabilities: 
-(a) natural language processing (NLP); 
-(b) knowledge representation; 
-(c) automated reasoning; 
-(d) machine learning (ML). 
+1. natural language processing (NLP);
+2. knowledge representation;
+3. automated reasoning;
+4. machine learning (ML). 
 
-The Total Turing test required additional two qualities: (e) computer vision and (f) robotics. All these areas have over the years withness significant breakthroughs. 
+The Total Turing test required additional two qualities: 
+5. computer vision and
+6. robotics. 
 
-Natural Language Processing and expert systems were extremely vibrant areas of research in the early days and have again come at the forefront of AI research. ML and Deep Learning (DL), once modest area of AI, have established itself as the leading techniques for building AI. 
+All these areas have over the years withness significant breakthroughs. Natural Language Processing and expert systems were extremely vibrant areas of research in the early days and have again come at the forefront of AI research. ML and Deep Learning (DL), once modest area of AI, have established itself as the leading techniques for building AI. 
 
 The AI community is once again anticipating the coming of Artificial General Intelligence (AGI). Narrow AI refers to an intelligent machine capable of performing one type of intelligent task, while AGI refers to an intelligent machine that performs multiple intellgent actions similar to what humans can do. And to achieve AGI, one needs to equip an AI (agent or program) with knowledge and reasoning. This is where Big Data and the internet has played a major role. The shift from logical reasoning to a DL- or ML-based reasoning seems to characterise the recent trends in AI research and discussions.
 
@@ -40,9 +42,8 @@ We aim to do **both testing and experimenting in the Kuyesera AI Lab**. We want 
 
 We hear a lot of talk and discussions surrounding Ethics of AI, in particular AGI even in countries like Malawi. Experts and non-experts can understand the fact that an autonomous intelligent machine (non-human) which makes decissions unaided by humans may decide to act in a harmful way. Technology is border-less to some extent too. So while certain AI development is not at the moment or cannot be done in Malawi, one cen certainly test and experiment with AI. Such experimentation enriches understanding and capacity to use AI for solving challenges and problems in Malawi. 
 
-**This is the mission of the Kuyesera AI Lab: to facilitate debate, discussions, to create a channel for exchange of ideas, to foster innovation and to bring together those engaged with exploring or actively using AI in Malawi (and beyond). **
+**This is the mission of the Kuyesera AI Lab: to facilitate debate, discussions, to create a channel for exchange of ideas, to foster innovation and to bring together those engaged with exploring or actively using AI in Malawi (and beyond).**
 
-
-
+We cover a few areas of interests: health informatics, data intelligence such as datasets creation and cataloguing, NLP, ML, HCI. If after reading through our projects you find some interesting, please let us know. If you simply want to touch base to tell us about your work, we want to hear from you!
 
 [mubas-organization]:   http://www.mubas.ac.mw
