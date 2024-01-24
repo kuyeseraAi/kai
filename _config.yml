@@ -36,10 +36,10 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - sms_fraud_detection.html
   - about.markdown
   - projects.markdown
   - events.markdown
+  - sms_fraud_detection.html
   - people.html
   - publications.markdown
   - blog.html
