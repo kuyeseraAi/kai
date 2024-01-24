@@ -38,12 +38,16 @@ We need to explain especially to Chichewa speakers how this name came about. "Ku
 
 "A test is a trial a withness, while an experiment is a test under controlled conditions made to either demonstrate a known truth, examine teh validity of a hypothesis, or determine the eficacy of something previously untried".
 
-We aim to do **both testing and experimenting in the Kuyesera AI Lab**. We want to know how AI techniques, tools, algorithms can be used to solve real problems in Malawi. It is not always easy for a non-expert to differentiate between what constitutes an AI-based solution from a solution found with other means or methods. Similarly, it is not trivial to understand why, how and to what extent an AI solution is better than one say based on general classes of algorithms / methods. 
+💡 We aim to do **both testing and experimenting in the Kuyesera AI Lab**. We want to know how AI techniques, tools, algorithms can be used to solve real problems in Malawi. It is not always easy for a non-expert to differentiate between what constitutes an AI-based solution from a solution found with other means or methods. Similarly, it is not trivial to understand why, how and to what extent an AI solution is better than one say based on general classes of algorithms / methods. 
 
 We hear a lot of talk and discussions surrounding Ethics of AI, in particular AGI even in countries like Malawi. Experts and non-experts can understand the fact that an autonomous intelligent machine (non-human) which makes decissions unaided by humans may decide to act in a harmful way. Technology is border-less to some extent too. So while certain AI development is not at the moment or cannot be done in Malawi, one cen certainly test and experiment with AI. Such experimentation enriches understanding and capacity to use AI for solving challenges and problems in Malawi. 
 
-**This is the mission of the Kuyesera AI Lab: to facilitate debate, discussions, to create a channel for exchange of ideas, to foster innovation and to bring together those engaged with exploring or actively using AI in Malawi (and beyond).**
+🚀 **This is the mission of the Kuyesera AI Lab: to facilitate debate, discussions, to create a channel for exchange of ideas, to foster innovation and to bring together those engaged with exploring or actively using AI in Malawi (and beyond).**
 
-We cover a few areas of interests: health informatics, data intelligence such as datasets creation and cataloguing, NLP, ML, HCI. If after reading through our projects you find some interesting, please let us know. If you simply want to touch base to tell us about your work, we want to hear from you!
+🔗 We cover a few areas of interests: health informatics, data intelligence such as datasets creation and cataloguing, NLP, ML, HCI. If after reading through our projects you find some interesting, please let us know. If you simply want to touch base to tell us about your work, we want to hear from you!
+
+💰 **Funding Acknowledgment:** The lab is self-sustaining itself through research funding and project work. We would like to acknowledge our grantors and partners for their support. We mention them on the project and events pages.
+
+The digital transformation of Malawi is here. Be part of the change! 🌐🔍✨
 
 [mubas-organization]:   http://www.mubas.ac.mw
