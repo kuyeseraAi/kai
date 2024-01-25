@@ -45,6 +45,12 @@ header_pages:
   - blog.html
   - zithunzi.markdown
 
+collections:
+  Projects:
+    output: true
+    permalink: /projects/:path/ 
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
