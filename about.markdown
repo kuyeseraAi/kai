@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-**Kuyesera AI** Lab is based at the [Malawi University of Business and Applied Sciences][mubas-organization]. The lab was established in 2020/21 by Dr. Amelia Taylor. The lab started with projects in NLP: information retrieval for legal text and the development of annotated language datasets(Chichewa) for machine translation.
-
-The establishment of the AI Lab then occurred naturally as the number of projects increased and Dr. Taylor won a larger grant via the PEACH project. This enabled the recruitment of other members of the lab.
+**Kuyesera AI** Lab is based at the [Malawi University of Business and Applied Sciences][mubas-organization]. The lab was established in 2020/21 by Dr. Amelia Taylor. 
 
 The emphasis of the lab is on research in computer science / data science / AI with a software engineering component. We aim to:
 
@@ -14,6 +12,9 @@ The emphasis of the lab is on research in computer science / data science / AI w
 2. Conduct scaleable and ethical research.
 3. Publish and disseminate our research.
 4. Establish collaborations with other research groups nationally and internationally.
+5. Develop datasets that support innovation and research. 
+
+The mission of the Kuyesera AI Lab is to facilitate debate, discussions, to create a channel for exchange of ideas, to foster innovation and to bring together those engaged with exploring or actively using AI in Malawi (and beyond). We aim to do **testing, experimenting and developing AI solutions** suitable for real problems in Malawi. 
 
 
 [mubas-organization]:   http://www.mubas.ac.mw
