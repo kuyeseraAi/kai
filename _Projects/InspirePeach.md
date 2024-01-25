@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inspire Peach
-order: 1
+order: 2
 nav: true
 ---
 

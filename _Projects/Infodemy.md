@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Infodemy
-order: 2
+order: 3
 nav: true
 ---
 
