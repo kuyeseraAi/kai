@@ -5,11 +5,11 @@ date:   2023-03-18 16:13:09 +0200
 categories: 
 ---
 
-This is a brief write-up on how the *Kuyesera AI Lab* started. This is now written from my perspective as a founder ("my"" referes to me Amelia Taylor). But I do hope that at some point others will write something too about this group.
+This is a brief write-up on how the *Kuyesera AI Lab* started. This is now written from my perspective as a founder ("my"" refers to Amelia Taylor). But I do hope that at some point others will write something too about this group.
 
 After several years lecturing at MUBAS and engaging in research, the time came to set up a more formal group. So these are some contributing events.
 
-2015 - I start teaching at the Malawi Polytechnic (now renamed to MUBAS).
+2015 - I start teaching at the Malawi Polytechnic (now renamed to MUBAS) focussing on developing modules on algorithm analysis and design and AI.
 
 2018 - I start organising IndabaX Malawi and actively participating in Deep Learning Indaba.
 
@@ -23,7 +23,7 @@ After several years lecturing at MUBAS and engaging in research, the time came t
 
 2021 - I join the INSPIRE Network at APHRC and together we win a grant under AI4COVID.
 
-2022 - We get another grant with the INSPIRE Network to work on data science and health informatics.
+2022 - We get another grant from the Wellcome Trust to work witin the INSPIRE Network on data science and health informatics.
 
 Dec 2022 - KuyeseraAI lab is formed.
 
