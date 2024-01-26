@@ -3,17 +3,16 @@
 ---
 @import "minima";
 
-/*.wrapper{
-  max-width: 850px;
-}*/
-
 .site-title::before {
   content: url("KAIlogo_50.png");
   display: inline-block;
   position: relative;
   width: 10px !important;
 }
-
+a.to-top{
+  content: url("arrow_up.png");
+  width: 20px !important
+}
 
 .row{
   display: flex;
