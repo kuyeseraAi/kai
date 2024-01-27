@@ -16,6 +16,17 @@ The Kuyesera AI Lab has several projects ongoing. We list them below and provide
   </p>
 {% endfor %}
 
+**Our partners are**:
+
+1. The Public Health Institute of Malawi (PHIM)
+2. Blantyre and Lilongwe DHOs
+3. African Population and Health Research Center
+4. London School of Hygene and Tropical Medicine
+5. EGPAF Malawi
+
+**We are grateful to our funders:** Wellcome Trust, IDRC, SIDA, Bill & Melinda Gates foundation. 
+
+
 [OHDSI]:   [https://www.ohdsi.org]
 [inspireweb]:   [https://inspiredata.network/about]
 [c19catalog]:   [https://healthdataafrica.org/]
