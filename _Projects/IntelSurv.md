@@ -1,7 +1,7 @@
 ---
 layout: page
 title: An Intelligent Disease Surveillance Data Feedback System
-order: 5
+order: 1
 nav: true
 ---
 
