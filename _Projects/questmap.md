@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Infodemy
+title: QuestMap
 order: 4
 nav: true
 ---
