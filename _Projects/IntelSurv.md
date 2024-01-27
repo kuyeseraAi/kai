@@ -9,7 +9,7 @@ This is a project funded by the Bill & Melinda Gates Foundation. We work in part
 colleagues at DHOs in Blantyre and Lilongwe.  
 
 **Deliverables**:
-1. <a class="page-link" href="https://drive.google.com/file/d/1HoRB7TLlxC4KX855NSGave2lGZYjxsay/view?usp=sharing" target="_blank">Working Report</a>. 
+1. <a class="page-link" href="https://www.researchgate.net/publication/377729331_IntelSurv_An_Intelligent_Disease_Surveillance_Training_Tool" target="_blank">Project Report</a>. 
 2. <a class="page-link" href="https://intelsurv.com" target="_blank">IntelSurv</a>
 3. <a class="page-link" href="https://intelsurv.com/datasets" target="_blank">Public Health Datasets for ML tasks</a>
 4. Competitions: <a class="page-link" href="https://zindi.africa/competitions/malawi-public-health-systems-llm-challenge" target="_blank"> Zindi - Malawi Public Health Systems LLM Challenge</a>
