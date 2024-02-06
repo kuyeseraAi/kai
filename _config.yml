@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   "Kuyesera" is a Chichewa word and it means "experimenting". This website 
   documents the work of the Kuyesera AI (short KAI) Lab at the Malawi University of Business and Applied Sciences. 
   The lab's aim is to develop AI solutions to real world problems.
-baseurl: "/kai" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "avtaylor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kuyeseraAI
 github_username:  kuyeseraAI
