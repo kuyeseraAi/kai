@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Kuyesera AI LAB
+title: KAI LAB
 email: ailab@poly.ac.mw
 description: >- # this means to ignore newlines until "baseurl:"
-  "Kuyesera" is a Chichewa word and it means "experimenting". This website 
+  "K" comes from the work "kuyesa", a Chichewa word and it means "experimenting". This website 
   documents the work of the Kuyesera AI (short KAI) Lab at the Malawi University of Business and Applied Sciences. 
   The lab's aim is to develop AI solutions to real world problems.
 baseurl: "" # the subpath of your site, e.g. /blog
