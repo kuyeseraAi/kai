@@ -23,8 +23,8 @@ email: ailab@poly.ac.mw
 description: KAI - A laboratory for Artificial Intelligence Research
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "avtaylor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kuyeseraAI
-github_username:  kuyeseraAI
+twitter_username: KAI
+github_username:  kAI
 
 # Build settings
 markdown: kramdown

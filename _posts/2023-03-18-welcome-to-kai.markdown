@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Kuyesera AI Lab!"
+title:  "Welcome to KAI Lab!"
 date:   2023-03-18 16:13:09 +0200
 categories: 
 ---
 
-This is a brief write-up on how the *Kuyesera AI Lab* started. This is now written from my perspective as a founder ("my"" refers to Amelia Taylor). But I do hope that at some point others will write something too about this group.
+This is a brief write-up on how the *KAI Lab* started. This is now written from my perspective as a founder ("my"" refers to Amelia Taylor). But I do hope that at some point others will write something too about this group.
 
 After several years lecturing at MUBAS and engaging in research, the time came to set up a more formal group. So these are some contributing events.
 
@@ -25,5 +25,5 @@ After several years lecturing at MUBAS and engaging in research, the time came t
 
 2022 - We get another grant from the Wellcome Trust to work witin the INSPIRE Network on data science and health informatics.
 
-Dec 2022 - KuyeseraAI lab is formed.
+Dec 2022 - KAI lab is formed.
 

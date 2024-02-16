@@ -1,2 +1,2 @@
 # kai
-Website for the Kuyesera AI Lab
+Website for the KAI Lab

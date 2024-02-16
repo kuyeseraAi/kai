@@ -5,7 +5,7 @@ permalink: /projects
 nav: true
 ---
 
-The Kuyesera AI Lab has several projects ongoing. We list them below and provide links to individual project pages.
+The KAI Lab has several projects ongoing. We list them below and provide links to individual project pages.
 
 {% assign orderedlist = site.Projects | sort:"order" %}
 {% for entry in orderedlist %}
