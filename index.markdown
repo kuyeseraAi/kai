@@ -4,6 +4,7 @@
 
 layout: home
 ---
+# KAI - A Laboratory for Artificial Intelligence Research in Malawi
 
 🚀 **The mission of the KAI Lab is to work on interesting and relevant projects and research in AI. And by doing that, it desires to facilitate debates and research, to create a channel for exchanging ideas, fostering innovation and bringing together those engaged in exploring or actively using AI in Malawi (and beyond).**
 
