@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Leveraging AI techniques and ideas in Malawi
 ---
-## Leveraging AI techniques and ideas
 
 🚀 **The mission of the KAI Lab is to work on interesting and relevant projects and research in AI. And by doing that, it desires to facilitate debates and research, to create a channel for exchanging ideas, fostering innovation and bringing together those engaged in exploring or actively using AI in Malawi (and beyond).**
 
