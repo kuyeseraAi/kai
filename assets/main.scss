@@ -3,12 +3,17 @@
 ---
 @import "minima";
 
+.site-header{
+  font-weight: bolder; 
+}
+
 .site-title::before {
   content: url("KAIlogo_50.png");
   display: inline-block;
   position: relative;
   width: 10px !important;
 }
+
 a.to-top{
   content: url("arrow_up.png");
   width: 20px !important
@@ -61,6 +66,9 @@ a.to-top{
   .team-images{
     height: 120px;
     object-fit: cover;
+  }
+  iframe{
+    height: 500px;
   }
   
 }

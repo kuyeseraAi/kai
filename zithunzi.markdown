@@ -6,6 +6,10 @@ permalink: /zithunzi/
 
 "Zithunzi" means pictures in Chichewa. Here are some pictures from previous events.
 
+![IntelSurv Feedback Session, Lilongwe](https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_LL_Feedback_Session.jpeg?updatedAt=1708085978498){:class="img-responsive"}{: .align-left}**IntelSurv User Feedback Session: 1 - 2 February 2024, Lilongwe**
+
+![IntelSurv Feedback Session, Blantyre](https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_BT_Feedback_Session.jpg?updatedAt=1708085977845){:class="img-responsive"}{: .align-left}**IntelSurv User Feedback Session: 19 December 2023, Blantyre**
+
 ![INSPIRE PEACH Dissemination Workshop: 26 - 27 June 2023, Blantyre](https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/INSPIRE%20PEACH%20Dissemination%20Workshop%2026%20-%2027%20June%202023,%20Blantyre.JPG?updatedAt=1690927842744){:class="img-responsive"}{: .align-left}**INSPIRE PEACH Dissemination Workshop: 26 - 27 June 2023, Blantyre**
 
 ![THE PAN AFRICAN DATA SCIENCE CONFERENCE February 26-27, 2023, Lilongwe](https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Pan_African_Data_Science_Conference_Optimized.jpg?updatedAt=1683116949411){:class="img-responsive"}{: .align-left}**THE PAN AFRICAN DATA SCIENCE CONFERENCE, April 2023**

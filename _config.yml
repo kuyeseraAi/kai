@@ -47,10 +47,14 @@ collections:
     output: true
     permalink: /events/I/:path/
     sort_by: chapter
+  Stakeholder_engagement_events:
+    output: true
+    permalink: /events/III/:path/
+    sort_by: chapter
   More_events:
     output: true
     permalink: /events/II/:path/
-    sort_by: chapter
+    sort_by: chapter  
   Projects:
     output: true
     permalink: /projects/:path/

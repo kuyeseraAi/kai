@@ -20,6 +20,22 @@ permalink: /events/
   <p>{{ entry.content | markdownify }}</p>
 {% endfor %}
 
+<h3 id="current_events"> <i>Stakeholder Engagement Events</i></h3>
+
+{% assign sorted_events = site.Stakeholder_engagement_events | sort:"chapter" %}
+{% for entry in sorted_events %}
+  <h4>
+    <a href="{{site.baseurl}}{{entry.url}}">
+      {{ entry.title }}
+    </a>
+  </h4>
+  <p style="text-align:left;"> 
+  <a class="" href="{{site.baseurl}}{{page.url}}#top">
+  </a>
+  </p>
+  <p>{{ entry.content | markdownify }}</p>
+{% endfor %}
+
 <h3 id="current_events"> <i>More Events</i></h3>
 
 {% assign sorted_events = site.More_events | sort:"chapter" %}
