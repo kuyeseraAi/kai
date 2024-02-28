@@ -38,9 +38,10 @@ header_pages:
   - events.markdown
   - sms_fraud_detection.html
   - people.html
-  - publications.markdown
+  - publications.html
   - blog.html
-  - zithunzi.markdown
+  - zithunzi.html
+
 
 collections:
   Regular_events:
