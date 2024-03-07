@@ -6,7 +6,6 @@
 //body
 .wrapper{
   max-width: 850px !important; 
-  //background-color: aqua; 
 }
 //navbar
 #logo{
@@ -58,6 +57,12 @@
 
 .mySlides {
   display: none;
+}
+
+.mySlides img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 
 .prev, .next {
@@ -129,7 +134,6 @@
   border-radius: 8px;
   box-shadow: 5px;
   margin-bottom: 8px;
-
 }
 .publication:hover{
   text-decoration: none;
@@ -169,6 +173,7 @@
   }
   .publication{
     display: inline-block;
+    width: 100%;
   }
      
 }
@@ -176,5 +181,8 @@
 @media only screen and (max-width: 640px) {
   .team-member{
     width: 100%;
+  }
+  .slideshow-container {
+    margin-bottom: 48px;
   }
 }
