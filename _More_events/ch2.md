@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Pan African Big Data, Analytics and AI 3rd Annual Conference.
-part: 2
+part: 4
 chapter: 2
 nav: true
 ---

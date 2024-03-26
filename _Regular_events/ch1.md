@@ -1,7 +1,7 @@
 ---
 layout: chaptersummary
 title: Annual Machine Learning
-part: 1
+part: 2
 chapter: 1
 nav: true
 ---

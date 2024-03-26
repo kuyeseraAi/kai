@@ -1,7 +1,7 @@
 ---
 layout: chaptersummary
 title: Trainings
-part: 1
+part: 2
 chapter: 3
 nav: true
 ---

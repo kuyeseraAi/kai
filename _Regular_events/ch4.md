@@ -1,7 +1,7 @@
 ---
 layout: chaptersummary
 title: Meet-ups
-part: 1
+part: 2
 chapter: 4
 nav: true
 ---

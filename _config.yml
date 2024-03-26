@@ -47,9 +47,13 @@ header_pages:
 
 
 collections:
+  Upcoming_events:
+    output: true 
+    permalink: events/I/:path/
+    sort_by: chapter
   Regular_events:
     output: true
-    permalink: /events/I/:path/
+    permalink: /events/II/:path/
     sort_by: chapter
   Stakeholder_engagement_events:
     output: true
@@ -57,7 +61,7 @@ collections:
     sort_by: chapter
   More_events:
     output: true
-    permalink: /events/II/:path/
+    permalink: /events/IV/:path/
     sort_by: chapter  
   Projects:
     output: true

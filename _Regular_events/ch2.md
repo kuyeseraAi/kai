@@ -1,7 +1,7 @@
 ---
 layout: chaptersummary
 title: Data Analytics competitions
-part: 1
+part: 2
 chapter: 2
 nav: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: INSPIRE PEACH Dissemination Workshop
-part: 2
+part: 4
 chapter: 1
 nav: true
 ---
