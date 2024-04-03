@@ -47,7 +47,7 @@ header_pages:
 
 
 collections:
-  Upcoming_events:
+  Latest_events:
     output: true 
     permalink: events/I/:path/
     sort_by: chapter
