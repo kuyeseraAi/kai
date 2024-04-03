@@ -15,8 +15,8 @@ permalink: /events/
   <p style="text-align:left;"> 
   <a class="" href="{{site.baseurl}}{{page.url}}#top">
   </a>
-  </p>
-  <p>{{ entry.content[0, 100] }}</p>
+  </p>  
+  <p>{{ entry.content | slice: 0, 560 }}</p>
 {% endfor %}
 
 <h3 id="regular_events"> <i>Regular Events</i> </h3>
