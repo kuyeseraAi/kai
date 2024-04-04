@@ -16,7 +16,8 @@ permalink: /events/
   <a class="" href="{{site.baseurl}}{{page.url}}#top">
   </a>
   </p>  
-  <p>{{ entry.content | slice: 0, 560 }}</p>
+  <p>{{ entry.content | slice: 200, 520 }} <a class="news-link" href="/events/I/ch1/">Read more <img src="../../assets/icons/external-link-icon.svg" /></a></p>
+  
 {% endfor %}
 
 <h3 id="regular_events"> <i>Regular Events</i> </h3>
