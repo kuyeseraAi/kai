@@ -4,15 +4,101 @@ title: SMS Fraud Detection
 order: 3
 nav: true
 ---
-<div>
-    <p>This research aims to provide knowledge and awareness on SMS fraud. One of the tools we want to develop is to recognize fraudulent SMSs
-        by finding out common features of the SMSs and ways in which fraudsters can use them. To do that we need to have access to as many examples
-        of fraudulent SMSs as possible.
-    </p>    
-    <p>KAI LAB is organising an SMS Fraud Awareness event aimed at students, lecturers and the general public. Find details of the event on the poster below;</p>
-    <iframe src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/SMS%20FRAUD%20Posters.pdf?updatedAt=1713944793450#toolbar=0" width="100%" height="1150px"></iframe>
-    <p>If you have experienced or noticed suspicious SMS(s) in your phones, you are therefore invited to participate in this initiative. Get started by registering <a href="https://shorturl.at/cosKU">here.</a></p>
-    <iframe src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/SMS%20Poster%20A3.pdf?updatedAt=1708086857995#toolbar=0" width="100%" height="1150px"></iframe>
+<div class="intelSurv-container">
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/scope-icon.png" />RESEARCH SCOPE</p>
+        <p>
+            The research aimed at understanding the prevalence of SMS based fraud in Malawi through a survey on a sampled population,
+            collecting SMS data targeting the Malawi University of Business and Applied Sciences students and few other people who would
+            be interested to contribute their SMS messages, building a dataset that will be used for building SMS classification models
+            to class an SMS as fraudulent or non fraudulent, testing machine learning algorithms if they can effectively classify Chichewa
+            SMS messages as fraudulent or non-fraudulent and lastly, comparing our results with other existing studies. 
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/dataset-icon.png" />DATA COLLECTION</p>
+        <p>
+            Data collection was conducted using two methodologies: online surveys and face-to-face questionnaire data collection.
+            <ul>
+                <li>A structured online google form  survey was distributed through various digital platforms at MUBAS via the Students
+                    Union president. Posters were displayed on the campus at MUBAS calling for participation. A total of 102 people
+                    participated in the online survey.
+                </li>
+                <li>
+                    Face-to-face data collection was conducted with individuals selected through random sampling techniques around the campus.
+                    A total of 86 students and members of staff participated in the face-to-face data collection.
+                </li>
+            </ul> 
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/findings-icon.png" />KEY FINDINGS</p>
+        <p>
+            <ul>
+                <li>
+                    <b>Awareness of fraudulent SMSs:</b> Online Surveys-96.1% respondents reported that they are aware of the existence
+                    of fraud SMSs, and 3.9% reported they do not know of its existence while Face-to-Face data collection- all 86
+                    individuals reported that they are aware of fraudulent SMS representing 100%.
+                </li>
+                <li>
+                    <b>Prevalence of Fraudulent SMSs:</b> Online Surveys-2% of respondents reported receiving fraudulent SMS messages of more
+                    than 10 a month, 16.4% reported receiving between 5 to 10 SMSs a month, and 81.4% encountering such messages occasionally
+                    while Face-to-Face Interviews- participants expressed varying degrees of exposure to fraudulent SMS messages, with 12%
+                    reporting frequent encounters and 88% stating rare occurrences.
+                </li>
+                <li>
+                    <b>Types of Fraudulent SMS Scams:</b> Both online survey and face-to-face data collection highlighted common types of fraudulent
+                    SMS scams, including phishing attempts, prize/sweepstakes scams, fake investment opportunities, and impersonation scams.
+                    Participants shared similar experiences regarding the types of scams encountered, indicating consistency in the prevalence
+                    of fraudulent SMS messages.
+                </li>
+                <li>
+                    <b>Response strategies:</b> Online Surveys-72% of respondents stated they ignored fraudulent SMS messages, and 28% deleted the
+                    messages immediately while Face-to-Face Interviews-participants mentioned diverse response strategies, including ignoring
+                    and deleting the messages, reporting the messages to relevant authorities or engaging with the sender to gather more
+                    information.
+                </li>
+                <li>
+                    <b>Impact of fraudulent SMSs:</b> Both data collection methods highlighted the potential financial and emotional impact of falling
+                    victim to fraudulent SMS scams, with respondents expressing concerns about identity theft, financial losses, and personal
+                    data compromise. 90.2% admitted that they or a friend had ever fallen victim,  while 9.8% did not.
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/dataset-icon.png" />DATASET</p>
+        <p> Some participants in the study consented to and submitted sample sms data. We developed a dataset of 15,299 SMS messages.
+            We categorized these as FRAUD, NORMAL and SPAM of which 1,370 are fraudulent, 1,826 are spam and 12,033 are normal. We are using
+            this dataset to develop a machine learning algorithm for SMS classification. This will help in detecting SMSs that are potentially
+            fraudulent.
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/experiment-icon.png" />EXPERIMENTS PERFORMED</p>
+        <p> In the study, the researchers performed a number of experiments tied to the objectives and scope of the study. In the first experiment,
+            the researchers tried to reduce the number of SMS features used in the machine learning models to see if it could improve models’
+            performance with the small dataset in the Chichewa language. Secondly, the researchers also allowed the models to use all available
+            SMS features to check if it made a difference in performance. In the third experiment, researchers tested whether training the model
+            with human-translated dataset or machine-translated dataset could improve the machine learning models’ performance. In the fourth
+            experiment, they used SMS messages that were less similar to each other to train the models, aiming to see if this could improve
+            performance. In the last but least experiment, the researchers explored whether using a dataset based on agreement between human
+            translators would affect model accuracy compared to data from each individual translator. Lastly, the researchers finished by testing
+            the trained models on new SMS data to see how well they could predict labels for the new messages.
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/results-icon.png" />EXPERIMENTS' RESULTS</p>
+        <p> The experiments demonstrate that machine learning algorithms can effectively classify Chichewa SMS messages as fraudulent or
+            non-fraudulent, with the Random Forest algorithm achieving a classification accuracy of 95%. Testing the Chichewa based model
+            on new SMS messages showed it could identify almost all Chichewa fraudulent messages, even with a relatively small dataset.
+            Translating the dataset to English improved accuracy to 99%, while machine translations achieved an accuracy of 91%. The Logistic
+            Regression model performed the best overall. Performance differences between models built on human-translated datasets from different
+            translators were minimal, suggesting either similar translations or a need for further study. Extracting less similar messages for
+            training did not significantly improve accuracy. Allowing all SMS features  improved model performance, while limiting them
+            diminished it.
+        </p>
+    </div>    
 </div>
 
 
