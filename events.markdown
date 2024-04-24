@@ -34,5 +34,3 @@ permalink: /events/
   </p>
   <p>{{ entry.highlights | markdownify }}</p>
 {% endfor %}
-
-[mubas-organization]: http://www.mubas.ac.mw
