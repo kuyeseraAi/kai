@@ -49,12 +49,10 @@ header_pages:
 collections:
   Upcoming_events:
     output: true
-    permalink: events/I/:path/
-    sort_by: chapter  
+    permalink: /events/upcoming-events/:path/  
   Past_events:
     output: true 
-    permalink: events/II/:path/
-    sort_by: chapter
+    permalink: /events/past-events/:path/
   Projects:
     output: true
     permalink: /projects/:path/
