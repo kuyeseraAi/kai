@@ -8,12 +8,11 @@ nav: true
     <div class="intelSurv-page-section">
         <p class="intelSurv-section-title"><img src="../../assets/icons/scope-icon.png" />RESEARCH SCOPE</p>
         <p>
-            The research aimed at understanding the prevalence of SMS based fraud in Malawi through a survey on a sampled population;
-            collecting SMS data targeting the Malawi University of Business and Applied Sciences students and few other people who would
-            be interested to contribute their SMS messages; constructing a dataset that will be used for building SMS classification models
-            to classify an SMS as fraudulent or non fraudulent; testing machine learning algorithms if they can effectively classify Chichewa
-            SMS messages as fraudulent or non-fraudulent and lastly; comparing our results with other existing studies.
+            The aim of this project was to develop a dataset of SMSs containing both normal and fraudulent messages with the purpose of developing 
+            machine learning models for classification of SMS fraudulent messages. The research was conducted by the Kuyesera AI lab. 
+            We report on the creation of the dataset and on preliminary machine learning algorithms that were conducted on the dataset.
         </p>
+     
     </div>
     <div class="intelSurv-page-section">
         <p class="intelSurv-section-title"><img src="../../assets/icons/dataset-icon.png" />DATA COLLECTION</p>
@@ -76,21 +75,17 @@ nav: true
     </div>
     <div class="intelSurv-page-section">
         <p class="intelSurv-section-title"><img src="../../assets/icons/experiment-icon.png" />EXPERIMENTS PERFORMED</p>
-        <p> In the study, the researchers performed a number of experiments tied to the objectives and scope of the study. In the first experiment,
-            the researchers tried to reduce the number of SMS features used in the machine learning models to see if it could improve models’
-            performance with the small dataset in the Chichewa language. Secondly, the researchers also allowed the models to use all available
-            SMS features to check if it made a difference in performance. In the third experiment, researchers tested whether training the model
-            with human-translated dataset or machine-translated dataset could improve the machine learning models’ performance. In the fourth
-            experiment, they used SMS messages that were less similar to each other to train the models, aiming to see if this could improve
-            performance. In the last but least experiment, the researchers explored whether using a dataset based on agreement between human
-            translators would affect model accuracy compared to data from each individual translator. Lastly, the researchers finished by testing
-            the trained models on new SMS data to see how well they could predict labels for the new messages.
+        <p> We used the dataset to experiment with machine learning algorithms to build a classifier. The dataset consists of the text of the SMS 
+            and other features such as phone number that sent the SMS, teh network, the day of the month when the message was reveived, etc. We manually annotated the dataset
+            and classify each message as spam, normal, fraud.
+            We also translated a subset of the dataset fully into English. We created carved out subsets based on selected features. We then 
+            developed predictors based in ML algorithms and compared their performance.
         </p>
     </div>
     <div class="intelSurv-page-section">
         <p class="intelSurv-section-title"><img src="../../assets/icons/results-icon.png" />EXPERIMENTS' RESULTS</p>
-        <p> The experiments demonstrate that machine learning algorithms can effectively classify Chichewa SMS messages as fraudulent or
-            non-fraudulent, with the Random Forest algorithm achieving a classification accuracy of 95%. Testing the Chichewa based model
+        <p> Our experiments show that machine learning algorithms can effectively classify Chichewa SMS messages as fraudulent or
+            non-fraudulent. The Random Forest algorithms achieved a classification accuracy of 95%. Testing the Chichewa based model
             on new SMS messages showed it could identify almost all Chichewa fraudulent messages, even with a relatively small dataset.
             Translating the dataset to English improved accuracy to 99%, while machine translations achieved an accuracy of 91%. The Logistic
             Regression model performed the best overall. Performance differences between models built on human-translated datasets from different
