@@ -2,7 +2,7 @@
 layout: chaptersummary
 title: Trainings
 part: 2
-chapter: 8
+chapter: 9
 nav: true
 highlights: Trainings - Online Training with Inspire Network; Data Harmonisation
 ---
