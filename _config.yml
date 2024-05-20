@@ -47,6 +47,9 @@ header_pages:
 
 
 collections:
+  Upcoming_events:
+    output: true
+    permalink: /events/upcoming-events/:path/
   Past_events:
     output: true 
     permalink: /events/past-events/:path/
