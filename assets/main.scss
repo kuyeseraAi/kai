@@ -353,6 +353,7 @@
 }
 .blog-image{
   flex: 3;
+  object-fit: cover;
 }
 .blog-quote{
   text-align: center;
@@ -362,6 +363,11 @@
     padding-top: 30%;
     padding-left: 16px;
   }
+}
+.blog-question{
+  font-style: italic;
+  font-weight: 500;
+  font-size: larger;
 }
 
 //partner page
