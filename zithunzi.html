@@ -10,6 +10,7 @@ permalink: /zithunzi/
 <div id="dropdown-container">
     <button id="dropdown-button" onclick="toggleDropdown()">Select Event</button>
     <div id="dropdown-content">
+        <a class="dropdown-option" href="#" onclick="openLabEvent('all-events')">All Events</a>
         <a class="dropdown-option" href="#" onclick="openLabEvent('smsFraudDay')">SMS Fraud Awareness Day</a>
         <a class="dropdown-option" href="#" onclick="openLabEvent('intelSurvDissWorkshop')">IntelSurv Dissemination Workshop</a> 
         <a class="dropdown-option" href="#" onclick="openLabEvent('intelSurvFeedbackSessionLL')">IntelSurv User Feedback Session-LL</a>
@@ -22,6 +23,30 @@ permalink: /zithunzi/
 </div>
 
 <div class="slides-container">
+    <div id="all-events" class="event-container">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Fraud_Awareness1.png?updatedAt=1715762240927">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Fraud_Awareness2.png?updatedAt=1715762241628">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Fraud_Awareness3.png?updatedAt=1715762241165">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_Dissemination_Workshop_28_03_2024%20HD6.jpg?updatedAt=1712312099470">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_Dissemination_Workshop_28_03_2024%20HD5.jpg?updatedAt=1712312101208">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_Dissemination_Workshop_28_03_2024%20HD4.jpg?updatedAt=1712312100672">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_Dissemination_Workshop_28_03_2024%20HD1.jpg?updatedAt=1712312100303">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_Dissemination_Workshop_28_03_2024%20HD7.jpg?updatedAt=1712312035061">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_Dissemination_Workshop_28_03_2024%20HD3.jpg?updatedAt=1712312100041">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_LL_Feedback_Session.jpeg?updatedAt=1708085978498">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/LL%20Feedback%20Session.jpeg?updatedAt=1711116074362">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_BT_Feedback_Session.jpg?updatedAt=1708085977845">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/BT%20Feedback%20Session%206.jpg?updatedAt=1711116074298">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/INSPIRE%20PEACH%20Dissemination%20Workshop%2026%20-%2027%20June%202023,%20Blantyre.JPG?updatedAt=1690927842744">
+        <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Pan_African_Data_Science_Conference_Optimized.jpg?updatedAt=1683116949411">
+        <img class="image-slide" src="https://ik.imagekit.io/ucqyxekmz/AI_Web_Images/InspireNetworkAGM_Nairobi_Optimised.JPG?updatedAt=1680165779367">
+        <img class="image-slide" src="https://ik.imagekit.io/ucqyxekmz/AI_Web_Images/GALWorkshopNairobiFeb2023_Optimised.jpg?updatedAt=1680165777435">
+        <p class="image-caption">All Events</p>
+        <p class="slide-counter"></p>
+        <a class="prev" onclick="plusSlides(-1, 'all-events')">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 'all-events')">&#10095;</a>
+    </div>
+
     <div id="smsFraudDay" class="event-container">
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Fraud_Awareness1.png?updatedAt=1715762240927">
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Fraud_Awareness2.png?updatedAt=1715762241628">
@@ -111,7 +136,7 @@ permalink: /zithunzi/
         showSlides(1, labEvent)
         toggleDropdown()
     }
-    var slideIndex = {'smsFraudDay': 1, 'intelSurvDissWorkshop': 1, 'intelSurvFeedbackSessionLL': 1, 'intelSurvFeedbackSessionBT': 1,
+    var slideIndex = {'all-events' : 1, 'smsFraudDay': 1, 'intelSurvDissWorkshop': 1, 'intelSurvFeedbackSessionLL': 1, 'intelSurvFeedbackSessionBT': 1,
     'IPDisseminationWorkshop': 1, 'panAfricanDataScienceConference': 1, 'INSPIRENetworkAGM': 1, 'GALWorkshop': 1
     }
 
@@ -132,6 +157,6 @@ permalink: /zithunzi/
         slideCounter.textContent = `${indexToShow}/${slides.length}`
         slides[indexToShow - 1].style.display = "block"        
     }
-    openLabEvent('smsFraudDay')
+    openLabEvent('all-events')
     toggleDropdown()
 </script>
