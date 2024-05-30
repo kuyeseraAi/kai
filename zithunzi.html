@@ -27,6 +27,7 @@ permalink: /zithunzi/
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Fraud_Awareness2.png?updatedAt=1715762241628">
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Fraud_Awareness3.png?updatedAt=1715762241165">
         <p class="image-caption">SMS Fraud Awareness Day: 10th May 2024, Blantyre</p>
+        <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'smsFraudDay')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'smsFraudDay')">&#10095;</a>
     </div>
@@ -39,6 +40,7 @@ permalink: /zithunzi/
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_Dissemination_Workshop_28_03_2024%20HD7.jpg?updatedAt=1712312035061">
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_Dissemination_Workshop_28_03_2024%20HD3.jpg?updatedAt=1712312100041">
         <p class="image-caption">IntelSurv Dissemination Workshop: 28th March 2024, Blantyre</p>
+        <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'intelSurvDissWorkshop')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'intelSurvDissWorkshop')">&#10095;</a>
     </div>
@@ -47,6 +49,7 @@ permalink: /zithunzi/
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_LL_Feedback_Session.jpeg?updatedAt=1708085978498">
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/LL%20Feedback%20Session.jpeg?updatedAt=1711116074362">
         <p class="image-caption">IntelSurv User Feedback Session: 1 - 2 February 2024, Lilongwe</p>
+        <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'intelSurvFeedbackSessionLL')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'intelSurvFeedbackSessionLL')">&#10095;</a>
     </div>
@@ -55,30 +58,35 @@ permalink: /zithunzi/
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IntelSurv_BT_Feedback_Session.jpg?updatedAt=1708085977845">
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/BT%20Feedback%20Session%206.jpg?updatedAt=1711116074298">
         <p class="image-caption">IntelSurv User Feedback Session: 19 December 2023, Blantyre</p>
+        <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'intelSurvFeedbackSessionBT')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'intelSurvFeedbackSessionBT')">&#10095;</a>
     </div>
     <div id="IPDisseminationWorkshop" class="event-container">
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/INSPIRE%20PEACH%20Dissemination%20Workshop%2026%20-%2027%20June%202023,%20Blantyre.JPG?updatedAt=1690927842744">
         <p class="image-caption">INSPIRE PEACH Dissemination Workshop: 26 - 27 June 2023, Blantyre</p>
+        <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'IPDisseminationWorkshop')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'IPDisseminationWorkshop')">&#10095;</a>
     </div>
     <div id="panAfricanDataScienceConference" class="event-container">
         <img class="image-slide" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Pan_African_Data_Science_Conference_Optimized.jpg?updatedAt=1683116949411">
         <p class="image-caption">THE PAN AFRICAN DATA SCIENCE CONFERENCE, April 2023</p>
+        <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'panAfricanDataScienceConference')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'panAfricanDataScienceConference')">&#10095;</a>
     </div>
     <div id="INSPIRENetworkAGM" class="event-container">
         <img class="image-slide" src="https://ik.imagekit.io/ucqyxekmz/AI_Web_Images/InspireNetworkAGM_Nairobi_Optimised.JPG?updatedAt=1680165779367">
         <p class="image-caption">The INSPIRE NETWORK AGM Feb 2023 @ APHRC Nairobi</p>
+        <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'INSPIRENetworkAGM')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'INSPIRENetworkAGM')">&#10095;</a>
     </div>
     <div id="GALWorkshop" class="event-container">
         <img class="image-slide" src="https://ik.imagekit.io/ucqyxekmz/AI_Web_Images/GALWorkshopNairobiFeb2023_Optimised.jpg?updatedAt=1680165777435">
         <p class="image-caption">The GAL Workshop, Feb 2023 @ Nairobi</p>
+        <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'GALWorkshop')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'GALWorkshop')">&#10095;</a>
     </div>
@@ -109,18 +117,20 @@ permalink: /zithunzi/
 
     function plusSlides(n, labEvent) {
         showSlides(slideIndex[labEvent] += n, labEvent);
-    }
-    
+    }    
 
     function showSlides(index, labEvent){
-        let slides = document.getElementById(labEvent).getElementsByClassName('image-slide')
+        let currentEvent = document.getElementById(labEvent)
+        let slides = currentEvent.getElementsByClassName('image-slide')
+        let slideCounter = currentEvent.getElementsByClassName('slide-counter')[0]
         if (index > slides.length) {slideIndex[labEvent] = 1}
         if (index < 1) {slideIndex[labEvent] = slides.length}
         for(slide of slides){
             slide.style.display = "none"
         }
-        slides[slideIndex[labEvent] - 1].style.display = "block"
-        
+        const indexToShow = slideIndex[labEvent]
+        slideCounter.textContent = `${indexToShow}/${slides.length}`
+        slides[indexToShow - 1].style.display = "block"        
     }
     openLabEvent('smsFraudDay')
     toggleDropdown()
