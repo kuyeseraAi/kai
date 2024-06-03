@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "Metafetch - A Tool for Retrieving Metadata for Journal Articles"
+author: "Grey Mengezi"
+date:   2024-05-27 08:30 +0200
+categories: 
+---
+
+<div>
+    <p class="blog-question">What is Metadata?</p>
+    <p>
+        <span class="drop-cap">M</span>etadata refers to data that provides information about other data. In publishing, metadata refers to
+        various details about an article or a book, such as the title, author(s), DOI, publication year, abstract, keywords, and sources.
+        It serves as a key component, complementing the content itself. Properly curated metadata is essential for facilitating data discovery,
+        comprehension, and organization of collected journal articles. Additionally, it simplifies communication with authors or affiliated
+        institutions, thereby enhancing the research process for scholars.
+    </p>
+
+    <p class="blog-question">What is MetaFetch?</p>
+    <p>
+        In many cases, researchers collect files containing published articles but may lack essential metadata fields such as all the authors,
+        publication years, abstracts, or keywords. To fill in these gaps typically, one might resort to manually searching for each article on
+        various publishing platforms to gather the missing information. However, this process becomes tedious and error-prone, especially with
+        large datasets.
+    </p>
+    <p>
+        An alternative method involves leveraging public APIs offered by many publishing companies to programmatically fetch the missing metadata.
+        This approach automates and streamlines the process of retrieving metadata for multiple articles. Inspired by this streamlined approach,
+        <b>Metafetch</b> specifically automates the retrieval of metadata for journal articles from multiple sources.
+    </p>
+    <p>
+        Currently the tool uses the APIs to retrieve the metadata from Elservier’s Scopus, PubMed and CrossRef.
+    </p>
+
+    <p class="blog-question">How does MetaFetch work?</p>
+    <p>Given a file of journal articles which may contain some gaps in metadata, the tool uses APIs from journal sources to retrieve the missing
+        data. The MetaFetch interface is easy to navigate and has instructions the user can follow. Here is an overview of the steps you can take
+        to use the tool.
+    </p>
+    <ol>
+        <li>Prepare the input file by using the same field names as specified in the provided <b>sample files</b>. The input file is required to have 
+            the article title or doi to be used as the search subject, one of these must be present in the file.<br /><br /><br />
+            <img src="https://ik.imagekit.io/xnaedr4r6/Metafetch%20Images/SS1-E.png?updatedAt=1717413137167" /><br /><br /><br />
+            <img src="https://ik.imagekit.io/xnaedr4r6/Metafetch%20Images/SS2-E.png?updatedAt=1717413137334" /><br /><br /><br />
+        </li>
+        <li>
+            Upload the file thus prepared using the interface. You can select a specific API representing the source. If you are not sure of which
+            one to use, select the ‘ALL’ option. 
+        </li>
+        <li>After the file selection, a summary of the relevant gaps in the input will be presented.</li>
+        <li>Click the ‘Fetch Metadata’ to get the data.</li>
+        <li>Download returned data files by clicking the buttons;
+            <ol style="list-style-type:lower-alpha">
+                <li>‘Merged file’ contains input file data merged with the returned data.</li>
+                <li>‘Raw file’ contains only the returned data by the API’s.</li>
+            </ol>            
+        </li>    
+    </ol>
+    <p class="blog-question">Key Features</p>
+    <ol>
+        <li><b>User-Friendly Interface</b>: The UI is easy to navigate through and gets you started instantly.</li>
+        <li><b>Efficiency</b>: Can fetch and process a batch of 100 articles in under 5 minutes.</li>
+        <li><b>Accuracy</b>: Designed with accuracy in mind. Only 100% matches are returned.</li>
+        <li><b>Comprehensiveness</b>: The tool uses three of the richest publishing databases namely Elservier’s Scopus, Pubmed and CrossRef to ensure wide coverage.</li>
+    </ol>
+    <p class="blog-question">Where do we go from here?</p>
+    <p>
+        While acknowledging the capabilities of the tool, it's important to consider more questions it could address. For instance, can we improve
+        its comprehensiveness by integrating additional APIs from various sources? Furthermore, is it possible to extend its functionality beyond
+        mere metadata retrieval to include information extraction capabilities?
+    </p>
+    <p>
+        These inquiries serve as the foundation for advancing the tool. By incorporating more APIs, we can enrich the tool's capabilities with a
+        wider range of data sources. Additionally, by including information extraction functionalities, we can empower users to get more insights
+        from the content itself.
+    </p>    
+
+</div>
