@@ -1,0 +1,29 @@
+---
+layout: page
+title: Projects
+permalink: /projects
+nav: true
+---
+
+<div>
+  <p>The KAI Lab has several projects ongoing. We list them below and provide links to individual project pages.</p>
+  <div class="project-container">
+    {% assign orderedlist = site.Projects | sort:"order" %}
+    {% for entry in orderedlist %}
+      <p class="project-item">
+        <a href="{{site.baseurl}}{{entry.url}}">
+          {{ entry.title }}
+        </a>
+      </p>
+    {% endfor %}
+    </div>
+  <p style="font-size: x-large; font-weight: bolder; margin: 32px;">Our partners are</p>
+  <div class="project-partners-container">
+    <p class="partner-item">The Public Health Institute of Malawi (PHIM)</p>
+    <p class="partner-item">Blantyre and Lilongwe DHOs</p>
+    <p class="partner-item">African Population and Health Research Center</p>
+    <p class="partner-item">London School of Hygene and Tropical Medicine</p>
+    <p class="partner-item">EGPAF Malawi</p>
+  </div>
+  <p style="font-size: larger; font-weight: bolder; margin: 32px;">We are grateful to our funders: Wellcome Trust, IDRC, SIDA, Bill & Melinda Gates foundation.</p>
+</div>
