@@ -7,16 +7,14 @@ nav: true
 
 <div>
   <p>The KAI Lab has several projects ongoing. We list them below and provide links to individual project pages.</p>
-  <div class="project-container">
+  <div class="projects-container">
     {% assign orderedlist = site.Projects | sort:"order" %}
-    {% for entry in orderedlist %}
-      <p class="project-item">
-        <a href="{{site.baseurl}}{{entry.url}}">
-          {{ entry.title }}
-        </a>
-      </p>
+    {% for entry in orderedlist %}      
+      <a class="project-item" href="{{site.baseurl}}{{entry.url}}">
+        {{ entry.title }}                 
+      </a>
     {% endfor %}
-    </div>
+  </div>
   <p style="font-size: x-large; font-weight: bolder; margin: 32px;">Our partners are</p>
   <div class="project-partners-container">
     <p class="partner-item">The Public Health Institute of Malawi (PHIM)</p>

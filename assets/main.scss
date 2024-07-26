@@ -35,7 +35,6 @@
 .banner-container{
   flex: 2;
   padding-right: 3rem;
-  //border-right: 2px solid #717171;
   border-right: #cecccc 5px solid;
 
 }
@@ -45,24 +44,33 @@
 }
 
 //project page
-.project-container{
+.projects-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.project-item{
+  color: black;
+  width: 40%;
+  margin: 16px;
+  padding: 16px;
+  border-left: 8px solid rgb(33, 33, 129);
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  &:hover{
+    text-decoration: none;
+    box-shadow: 0 50px 50px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);   
+  }
+  &:visited{
+    color: black;
+  }
+}
+/*.project-container{
   display: flex;
   flex-wrap: wrap;
 }
 .project-partners-container{
   display: flex;
   flex-wrap: wrap;
-}
-.partner-item{
-  width: 40%;
-  border-bottom: 2px solid rgb(33, 33, 129);
-  padding: 16px;
-  margin-bottom: 16px;
-  margin-right: 24px;
-  transition: 0.3s;
-  &:hover{
-    border-bottom: 8px solid rgb(33, 33, 129);
-  }
 }
 .project-item{  
   width: 40%;
@@ -87,6 +95,22 @@
   }
   &:last-child{
     justify-content: flex-start;
+  }
+}*/
+.project-partners-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.partner-item{
+  text-align: center;
+  width: 40%;
+  border-bottom: 2px solid rgb(33, 33, 129);
+  padding: 16px;
+  margin-bottom: 16px;
+  margin-right: 24px;
+  transition: 0.3s;
+  &:hover{
+    border-bottom: 8px solid rgb(33, 33, 129);
   }
 }
 
