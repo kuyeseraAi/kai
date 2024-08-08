@@ -1,0 +1,67 @@
+---
+layout: page
+title: Health and Education Determinants (HEAD)
+order: 9
+nav: true
+---
+
+<div class="intelSurv-container">
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/scope-icon.png" />AIM</p>
+        <p>
+            Construct a comprehensive geospatial dataset that maps the locations of schools, nearest clinic(s) to the schools,
+            and the major roads leading to these schools, including the conditions of these roads, within Blantyre district in Malawi. 
+        </p>     
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/findings-icon.png" />OBJECTIVES</p>
+        <p>
+            <ul>
+                <li>
+                    Collect the names and geographical coordinates of primary and secondary schools, as well as the nearby clinics.
+                    Additionally, to collect data on the type (bitumen, earth) and condition (good, fair, poor) of major roads in both
+                    rural and urban areas of Blantyre district.
+                </li>
+                <li>
+                    Develop a geospatial dataset for Blantyre district that contains the names and geographical coordinates of
+                    schools(primary, secondary) and clinics, the school’s distance to the nearest clinic, and the major roads with
+                    their types and conditions.
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/experiment-icon.png" />HIGH-LEVEL METHODOLOGY</p>
+        <p>
+            We sourced school data for Blantyre district from multiple sources including the Giga Global website, OCHA services
+            website, MANEB passlist 2022, 2019 list of election polling centers, and various web-scraped sites. The collected data
+            comprised 1,029 school entries, categorized into primary, secondary, and tertiary levels. In the cleaning phase, duplicates
+            were removed using Excel functions, and the Giga Global list was used to cross-verify and categorize school names from
+            other sources. During this phase, schools with geographical coordinates were identified and categorized accordingly. We
+            merged 10 verified schools with coordinates from other sources into the Giga Global dataset, resulting in a total of 344
+            cleaned schools: 230 primary, 109 secondary, and 5 tertiary. Schools without coordinates (217) were not included in the
+            final dataset. For visualization, we created a local project folder in QGIS, added the OpenStreetMap layer as the base map,
+            and imported the cleaned and merged school dataset for analysis.           
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/deliverable-icon.png" />EXPECTED RESULTS</p>
+        <ul>
+            <li>Creation of a detailed geospatial dataset for Blantyre district, including: schools, clinics and roads.
+            <li>Visualization of schools, clinics, and major roads on a map using QGIS</li>
+            <li>Insights into the accessibility of healthcare and educational facilities, identifying potential areas for improvement
+                in service delivery and infrastructure.
+            </li>        
+        </ul>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/workshop-icon.png" />TEAM</p>
+        <div class="project-partners-container">
+            <p class="partner-item">Dr. Amelia Taylor</p>
+            <p class="partner-item">Amoss Robert</p>
+            <p class="partner-item">Tamanda Phiri</p>
+            <p class="partner-item">Moses Gwaza</p>
+        </div>
+    </div>  
+    
+</div>

@@ -1,0 +1,80 @@
+---
+layout: page
+title: Disaster Response Management (DRM)
+order: 8
+nav: true
+---
+
+<div class="intelSurv-container">
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/scope-icon.png" />AIM</p>
+        <ul>
+            <li>Create a dataset of images taken from Google Earth Pro from selected areas in Blantyre affected by Cyclone Fredd.
+                Each image is taken at two distinct dates, before and after Cyclone Freddy.
+            </li>
+            <li>
+                Categorize and label buildings in these images with two classes: damaged and not damaged. 
+            </li>                
+        </ul>     
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/findings-icon.png" />OBJECTIVES</p>
+        <p>
+            <ol>
+                <li>Collect and prepare data for analysis.
+                    <ul>
+                        <li>Collect a dataset of images (pre-and-post disaster) from satellite sources.</li>
+                        <li>Review the collected dataset to select a specific focus area.</li>
+                    </ul>
+                </li>
+                <li>Apply the xBD methodology
+                    <ul>
+                        <li>Understanding of the xBD methodology for assessing building damage.</li>
+                        <li>Apply the xBD methodology to the selected dataset of satellite imagery.</li>
+                        <li>Produce an annotated dataset of images for the specified focus area based on the xBD methodology.</li>
+                    </ul>
+                </li>
+                <li>Train the model and evaluate
+                    <ul>
+                        <li>Train a model using the xBD methodology on the annotated dataset of satellite imagery.</li>
+                        <li>Test the trained model on other datasets to evaluate its performance.</li>
+                    </ul>
+
+                </li>
+            </ol>            
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/experiment-icon.png" />HIGH-LEVEL METHODOLOGY</p>
+        <p>
+            We use Google Earth Pro to obtain high resolution images of the selected areas at two different dates, before and after
+            cyclone Freddy. Cyclone Freddy happened on the 11th and 12th March, 2023. To capture the images in Google Earth Pro,
+            gridlines are added using a custom code to generate grids with specific latitude and longitude spacing, ensuring images
+            don't overlap. Images are captured before and after Cyclone Freddy, with pre-disaster images from August 30, 2022, and
+            post-disaster images from June 14, 2023, at 1024x768 resolution and 70m scale. These images are labeled by grid boxes and
+            georeferenced in QGIS using four corner points of each box. The georeferenced images are then cropped and resized to
+            1024x1024 using a Python script, removing irrelevant areas and borders, and renamed systematically. Finally, the images are
+            labeled in QGIS following the xBD methodology to classify building damage, generating CSV files and using  a script, we
+            generate JSON files for each image to create a comprehensive dataset of labeled, georeferenced, and cropped images.           
+        </p>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/deliverable-icon.png" />EXPECTED RESULTS</p>
+        <ul>
+            <li>Comprehensive image dataset from satellite sources (pre and post disaster)</li>
+            <li>Application of the xBD Methodology to the dataset, resulting in an annotated image dataset</li>   
+            <li>A trained model capable of assessing building damage using satellite imagery.</li>
+            <li>Insights for Disaster Management - strengths and limitations of using satellite imagery for disaster management</li>         
+        </ul>
+    </div>
+    <div class="intelSurv-page-section">
+        <p class="intelSurv-section-title"><img src="../../assets/icons/workshop-icon.png" />TEAM</p>
+        <div class="project-partners-container">
+            <p class="partner-item">Dr. Amelia Taylor</p>
+            <p class="partner-item">Lewis Msasa</p>
+            <p class="partner-item">Evie Chapuma</p>
+            <p class="partner-item">Grey Mengezi</p>
+            <p class="partner-item">Chimwemwe Chamangwana</p>
+        </div>
+    </div>    
+</div>
