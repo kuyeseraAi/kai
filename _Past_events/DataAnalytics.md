@@ -2,7 +2,7 @@
 layout: chaptersummary
 title: Data Analytics competitions
 part: 2
-chapter: 9
+chapter: 10
 nav: true
 highlights: Data Analytics competitions; last run April 2022
 ---
