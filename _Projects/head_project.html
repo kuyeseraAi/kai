@@ -9,8 +9,9 @@ nav: true
     <div class="intelSurv-page-section">
         <p class="intelSurv-section-title"><img src="../../assets/icons/scope-icon.png" />AIM</p>
         <p>
-            Construct a comprehensive geospatial dataset that maps the locations of schools, nearest clinic(s) to the schools,
-            and the major roads leading to these schools, including the conditions of these roads, within Blantyre district in Malawi. 
+            This project seeks to understand the geographical layout of schools and health facilities across Blantyre district by mapping
+            out the locations of these facilities to visualise their distribution patterns. And also measure the distances between schools
+            and the nearest clinics within Blantyre district to assess the accessibility of healthcare services for students and school staff.
         </p>     
     </div>
     <div class="intelSurv-page-section">
@@ -18,14 +19,12 @@ nav: true
         <p>
             <ul>
                 <li>
-                    Collect the names and geographical coordinates of primary and secondary schools, as well as the nearby clinics.
-                    Additionally, to collect data on the type (bitumen, earth) and condition (good, fair, poor) of major roads in both
-                    rural and urban areas of Blantyre district.
+                    Collect names, school type, ownership status and geographical coordinates of primary, secondary and tertiary schools
+                    as well as the health facilities. 
                 </li>
                 <li>
-                    Develop a geospatial dataset for Blantyre district that contains the names and geographical coordinates of
-                    schools(primary, secondary) and clinics, the school’s distance to the nearest clinic, and the major roads with
-                    their types and conditions.
+                    Develop a geospatial dataset mapping schools and health facilities with calculated distances from a school to the next
+                    nearest school and health facility within a ward in Blantyre district.
                 </li>
             </ul>
         </p>
@@ -34,24 +33,27 @@ nav: true
         <p class="intelSurv-section-title"><img src="../../assets/icons/experiment-icon.png" />HIGH-LEVEL METHODOLOGY</p>
         <img src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/head_project_sample_image.png?updatedAt=1723196570194" alt="head_sample_image" height="400px" width="400px" style="float: right; margin-left: 24px;"/>
         <p>
-            We sourced school data for Blantyre district from multiple sources including the Giga Global website, OCHA services
-            website, MANEB passlist 2022, 2019 list of election polling centers, and various web-scraped sites. The collected data
-            comprised 1,029 school entries, categorized into primary, secondary, and tertiary levels. In the cleaning phase, duplicates
-            were removed using Excel functions, and the Giga Global list was used to cross-verify and categorize school names from
-            other sources. During this phase, schools with geographical coordinates were identified and categorized accordingly. We
-            merged 10 verified schools with coordinates from other sources into the Giga Global dataset, resulting in a total of 344
-            cleaned schools: 230 primary, 109 secondary, and 5 tertiary. Schools without coordinates (217) were not included in the
-            final dataset. For visualization, we created a local project folder in QGIS, added the OpenStreetMap layer as the base map,
-            and imported the cleaned and merged school dataset for analysis.           
+            This study employed a systematic approach to collect, process, and analyse data related to schools and health facilities in Blantyre
+            district. The schools data was sourced from multiple platforms, including Giga Global and OCHA Services using web scraping and
+            downloading. Schools were categorised into primary, secondary, and tertiary with their type and ownership status information. Schools
+            without coordinates were excluded from the dataset. Health facilities were categorised into hospitals, health centres, dispensaries
+            and clinics with their ownership status such as Government-owned, private and religion owned.           
+        </p>
+        <p>
+            For each constituency in the district, the ward boundaries were georeferenced in QGIS using original demarcation maps sourced from
+            the Malawi Electoral Commission. Separate shapefiles for schools and health facilities were created and distribution patterns were
+            mined using QGIS software. These layers were overlaid to visualise the distribution of schools and health facilities in each ward per
+            constituency. Spatial analysis in QGIS was conducted which involved calculating the number of schools and health facilities in each
+            ward and the distances between schools and their nearest neighbours(school and health facility).
         </p>
     </div>
     <div class="intelSurv-page-section">
-        <p class="intelSurv-section-title"><img src="../../assets/icons/deliverable-icon.png" />EXPECTED RESULTS</p>
+        <p class="intelSurv-section-title"><img src="../../assets/icons/deliverable-icon.png" />RESULTS</p>
         <ul>
-            <li>Creation of a detailed geospatial dataset for Blantyre district, including: schools, clinics and roads.
-            <li>Visualization of schools, clinics, and major roads on a map using QGIS</li>
-            <li>Insights into the accessibility of healthcare and educational facilities, identifying potential areas for improvement
-                in service delivery and infrastructure.
+            <li>A geospatial dataset which maps 340 schools(primary, secondary and tertiary) and 146 health facilities in Blantyre district.
+            <li>Visualisation of schools, clinics, and major roads on a map using QGIS.</li>
+            <li>Insights into the accessibility of healthcare and educational facilities, identifying potential areas for improvement in service 
+                delivery and infrastructure.
             </li>        
         </ul>
     </div>
