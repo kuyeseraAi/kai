@@ -36,7 +36,7 @@ plugins:
 header_pages:
   - about.markdown
   - projects.html
-  - events.markdown
+  - events.html
   - sms_fraud_detection.html
   - people.html
   - partners.html
