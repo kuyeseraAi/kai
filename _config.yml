@@ -22,9 +22,10 @@ title: KAI LAB
 email: admin@kailab.tech
 description: KAI - A laboratory for Artificial Intelligence Research
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "avtaylor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kailab.tech" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kuyeseraai
 github_username:  kuyeseraAI
+logo: /assets/KAIlogo_50.png
 footer_mubas_logo: "https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/MUBAS_logo.jpg?updatedAt=1710266827810"
 
 # Build settings
