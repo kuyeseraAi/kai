@@ -2,7 +2,10 @@
 layout: post
 title:  "IndabaX Malawi: A little history!"
 date:   2023-03-11 16:13:09 +0200
-categories: 
+author: Dr. Amelia Taylor
+image: https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Team_Images_With_Uniform_Background/A_Taylor.jpg?updatedAt=1722240427789
+excerpt: IndabaX Malawi are annual gathering of people in Malawi who are interested in AI, Machine Learning, Data Science and in general
+    technology. But how did these events start iun Malawi? Rollback to 2018. An email with the Deep Learning Indaba event to be held at Stellenbosch hit my inbox.
 ---
 IndabaX Malawi are annual gathering of people in Malawi who are interested in AI, Machine Learning, Data Science and in general technology. 
 
