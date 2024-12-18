@@ -388,6 +388,10 @@
     font-size: smaller;
   }
 }
+#sms-blog-images{
+  display: flex;
+  justify-content: center;
+}
 
 //partner page
 .partner-container{
@@ -516,5 +520,8 @@
   .blog-entry{
     display: block;
     text-align: center;
-  }  
+  } 
+  #sms-blog-images{
+    display: block;
+  } 
 }

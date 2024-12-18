@@ -1,0 +1,124 @@
+---
+layout: post
+title:  "Detecting SMS Fraud in Chichewa Using Machine Learning: A Research Journey "
+author: "Amoss Robert"
+date:   2024-12-18 08:30 +0200
+image: https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Team_Images_With_Uniform_Background/A_Robert.jpg?updatedAt=1722240435618
+excerpt : In today’s interconnected world, SMS fraud remains a significant threat, particularly in regions where local languages are the
+    primary medium of communication. Recognizing this challenge, our research team at the KAI Lab embarked on an ambitious project to detect SMS
+    fraud in Chichewa, a widely spoken language in Malawi.
+---
+
+<div>
+    <p>
+        <span class="drop-cap">I</span> n today’s interconnected world, SMS fraud remains a significant threat, particularly in regions where
+        local languages are the primary medium of communication. Recognizing this challenge, our research team at the KAI Lab embarked on an
+        ambitious project to detect SMS fraud in Chichewa, a widely spoken language in Malawi. The journey began in 2023, after my final year
+        undergraduate project at the Malawi University of Business and Applied Sciences, which focused on developing an intelligent SMS messaging
+        mobile application powered by machine learning to detect and filter incoming fraudulent SMS messages before displaying them to the user.
+        After discussing with the lab, we decided to expand on this project. The expansion involved: (1) cleaning, improving, and organizing the
+        dataset I had worked on during my undergraduate project, (2) refining the methodology to account for translation into English, (3)
+        rerunning the machine learning experiments, and (4) collecting new data. The journey was as rewarding as it was challenging, offering us
+        valuable lessons about the intersection of technology, language, and security.
+    </p>
+    <p>
+        This project involved several individuals at the lab, each contributing complementary skills. These included Tamanda Phiri, who was part
+        of the translation team alongside Ben Chapuma and myself. In addition to our roles in translation, Tamanda, Ben and I were actively
+        involved in new data collection efforts which also included Alinafe Lipenga.
+    </p>   
+    <p class="blog-question">The inspiration behind the research</p>
+    <p>
+        Malawi, like many countries, has seen a rise in fraudulent SMS schemes targeting unsuspecting individuals. Several Malawians both in
+        urban and rural areas have fallen victim to this act. A 2023 report from Malawi Communications Regulatory Authority(MACRA) indicated
+        that approximately US$117,000 is stolen every month from Malawians through electronic fraud which usually takes the form of SMS and
+        voice(phone calls). The fraudsters exploit the local language, Chichewa, to reach a wider audience including the rural masses who can
+        read their messages. This Chichewa nature of fraudulent messages makes the traditional fraud detection tools which are often tailored
+        for widely spoken global languages such as English to be less effective. This gap triggered a motivation to explore how machine
+        learning (ML) could be leveraged to address this pressing issue in a local context.
+    </p>
+    <p id="sms-blog-images">
+        <img height="300px" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/fraud_sms_sample.jpg?updatedAt=1734510711940" alt="sms-fraud-sample" />
+        <img height="300px" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/fraud_sms_sample_2.jpg?updatedAt=1734510711819" alt="sms-fraud-sample2" />
+        <p style="text-align: center;"><i>Sample fraudulent SMSs written in Chichewa language</i></p>
+    </p>
+    <p class="blog-question">Challenges in working with Chichewa SMS data</p>
+    <p>
+        One of the first hurdles we faced was the lack of a standardised Chichewa corpus that is suitable for SMSs. Unlike English, where
+        extensive language resources are readily available, Chichewa has limited digital text repositories. There are some Chichewa corpi
+        created for general text: <a href="https://zenodo.org/records/3731994">SpokenChichewaCorpus</a>, <a href="https://github.com/masakhane-io/lacuna_pos_ner">
+        masakhane-io/lacuna_pos_ner</a>, <a href="https://github.com/masakhane-io/masakhane-pos">masakhane-io/masakhane-pos</a>. This scarcity
+        meant we had to get creative with data collection, curating datasets from scratch. We gathered authentic SMS messages, both fraudulent
+        and legitimate, from research participants who had consented and manually annotated them to train our machine learning models.
+    </p>
+    <p class="blog-question">The role of data augmentation</p>
+    <p>
+        To enhance our dataset, we employed a manual text augmentation. Chichewa, like other Bantu languages, has rich morphological structures
+        and diverse dialectical variations. By focusing on specific parts of speech such as verbs, pronouns, prepositions, and nouns, we
+        introduced variations in the SMS messages. This process included:
+        <ol>
+            <li>Addition of words that were implied by the text but were not explicitly present in the original Chichewa SMS.</li>
+            <li>Synonym replacement through substitution of words with similar meanings to introduce diversity.</li>
+            <li>Replacing borrowed words from English with the equivalent words in vernacular (Chichewa).</li>
+        </ol>
+        These transformations enriched the dataset without altering the original meaning of the messages, making the model more robust to
+        real-world variations.
+    </p>
+    <p class="blog-question">Experimenting with machine learning models</p>
+    <p>
+        Our approach combined natural language processing (NLP) techniques with supervised machine learning algorithms. The preprocessing phase
+        involved tokenising messages, encoding classes and vectorising text using TF-IDF (Term Frequency-Inverse Document Frequency) technique.
+        We trained various models, including logistic regression and random forest, evaluating their performance using accuracy, precision,
+        recall and f1-score metrics.
+    </p>
+    <p class="blog-question">Insights and outcomes</p>
+    <p>
+        A subset of 649 messages was used for experimenting with machine learning models. Random Forest model achieved the highest accuracy of
+        97% while Logistic Regression achieved 96% on Chichewa dataset. Our dataset was also translated by human translators from the research
+        team members and machine translator(Google Translate). From this translated dataset, Logistic Regression achieved highest with 96%
+        accuracy while Random Forest came second with 95%. The performance of both models slightly decreased on the machine translated dataset.
+        Beyond its technical success, the project underscored the importance of developing localized solutions. By tailoring our approach to
+        the nuances of Chichewa, we demonstrated that machine learning can be a powerful tool for addressing language-specific challenges. 
+    </p>
+    <p id="sms-blog-images">
+        <img height="300px" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/fraud_sms_results.png?updatedAt=1734510712006" alt="sms-fraud-results" />
+        <p style="text-align: center;"><i>A table of machine learning experimental results </i></p>
+    </p>
+    <p class="blog-question">New large dataset</p>
+    <p>
+        The research culminated in a model capable of detecting fraudulent SMS messages with a high degree of accuracy. A total of 15,229 raw
+        SMS messages ,both fraudulent and non-fraudulent, were collected during the data collection exercise. This dataset is currently being
+        prepared for analysis. 
+    </p>
+    <p class="blog-question">Reflections on the experience</p>
+    <p>
+        This research was more than an academic pursuit; it was a profound learning experience that extended far beyond technical model building.
+        It highlighted the critical role of interdisciplinary collaboration, particularly through engaging with community stakeholders during
+        data collection. Their firsthand experiences and insights provided invaluable context, deepening our understanding of the nuances of SMS
+        fraud in Chichewa. These interactions helped us identify the tactics used by fraudsters and the cultural or linguistic cues that often
+        made these scams convincing, ultimately shaping our approach to designing feasible research methodology.
+    </p>
+    <p>
+        Additionally, this project reinforced the importance of ethical considerations when working with sensitive data. We prioritised data
+        privacy and security, ensuring that all collected information was handled responsibly to protect participants' identities. These measures
+        aligned with our commitment to maintaining trust and upholding ethical research standards.
+    </p>
+    <p>
+        Finally, this research emphasised the need for context-aware innovation. By incorporating insights from the communities directly affected
+        by SMS fraud, we shaped an approach that was both practical and grounded in real-world experiences. This ensured that our model not only
+        performed well technically but also addressed the problem in a way that could resonate with and benefit the people it was intended to
+        serve if integrated into a broader solution.
+    </p>
+    <p class="blog-question">Moving forward</p>
+    <p>
+        The fight against SMS fraud is far from over. While our model provides a robust starting point, there’s ample room for improvement.
+        Future work could include experimenting with large SMS datasets and other SMS features such as phone numbers, time etc on top of SMS body
+        which was only the focus feature in our research. Additionally, the development of a standardized Chichewa corpus could significantly
+        benefit not only fraud detection but also other NLP applications. 
+    </p>
+    <p class="blog-question">Conclusion</p>
+    <p>
+        Our journey in detecting SMS fraud in Chichewa illustrates the transformative potential of machine learning when applied thoughtfully to
+        local contexts. By addressing language-specific challenges, we can create solutions that are not only innovative but also impactful.
+        This project stands as a testament to the power of technology to bridge gaps and solve pressing societal problems, one message at a time.
+    </p>    
+</div>

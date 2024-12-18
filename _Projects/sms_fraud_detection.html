@@ -6,22 +6,24 @@ nav: true
 ---
 <div class="intelSurv-container">
     <div class="intelSurv-page-section">
-        <p class="intelSurv-section-title"><img src="../../assets/icons/scope-icon.png" />RESEARCH SCOPE</p>
-        <p>
-            The aim of this project was to develop a dataset of SMSs containing both normal and fraudulent messages with the purpose of developing 
-            machine learning models for classification of SMS fraudulent messages. The research was conducted by the Kuyesera AI lab. 
-            We report on the creation of the dataset and on preliminary machine learning algorithms that were conducted on the dataset.
-        </p>
+        <p class="intelSurv-section-title"><img src="../../assets/icons/scope-icon.png" />AIMS AND OBJECTIVES</p>
+        <ol>
+            <li>To clean, improve, and organise an existing subset of Chichewa SMS messages for use in building classification models.</li>
+            <li>To develop and evaluate machine learning classification algorithms to determine their effectiveness in classifying
+                Chichewa SMS messages as fraudulent or normal using the prepared dataset.
+            </li>
+            <li>To collect large SMS data to support further experimentation and analysis.</li>
+        </ol>
      
     </div>
     <div class="intelSurv-page-section">
-        <p class="intelSurv-section-title"><img src="../../assets/icons/dataset-icon.png" />DATA COLLECTION</p>
+        <p class="intelSurv-section-title"><img src="../../assets/icons/dataset-icon.png" />LARGE DATA COLLECTION - (Feb - Mar, 2024)</p>
         <p>
-            Data collection was conducted using two methodologies: online surveys and face-to-face questionnaire data collection.
+            Additional SMS data collection exercise was conducted using two methodologies: online surveys and face-to-face questionnaires.
             <ul>
-                <li>A structured online google form  survey was distributed through various digital platforms at MUBAS via the Students
-                    Union president. Posters were displayed on the campus at MUBAS calling for participation. A total of 102 people
-                    participated in the online survey.
+                <li>A structured online google form survey was distributed through various digital platforms at MUBAS via the Students Union
+                    president. Posters were displayed on the campus at MUBAS calling for participation. A total of 102 people participated in
+                    the online survey. 
                 </li>
                 <li>
                     Face-to-face data collection was conducted with individuals selected through random sampling techniques around the campus.
@@ -31,13 +33,16 @@ nav: true
         </p>
     </div>
     <div class="intelSurv-page-section">
-        <p class="intelSurv-section-title"><img src="../../assets/icons/findings-icon.png" />KEY FINDINGS</p>
+        <p class="intelSurv-section-title"><img src="../../assets/icons/findings-icon.png" />KEY FINDINGS FROM COLLECTED DATA</p>
         <p>
+            These findings come from a small population thus MUBAS students community and few other individuals outside MUBAS community
+            therefore, they may not be representative enough for the entire population.
             <ul>
                 <li>
-                    <b>Awareness of fraudulent SMSs:</b> Online Surveys-96.1% respondents reported that they are aware of the existence
-                    of fraud SMSs, and 3.9% reported they do not know of its existence while Face-to-Face data collection- all 86
-                    individuals reported that they are aware of fraudulent SMS representing 100%.
+                    <b>Awareness of fraudulent SMSs:</b>  Online Surveys - 96.1% respondents reported that they are aware of the existence of
+                    fraud SMSs, and 3.9% reported they do not know of its existence while Face-to-Face data collection- all 86 individuals
+                    reported that they are aware of fraudulent SMS representing 100%.
+
                 </li>
                 <li>
                     <b>Prevalence of Fraudulent SMSs:</b> Online Surveys-2% of respondents reported receiving fraudulent SMS messages of more
@@ -66,44 +71,33 @@ nav: true
         </p>
     </div>
     <div class="intelSurv-page-section">
-        <p class="intelSurv-section-title"><img src="../../assets/icons/dataset-icon.png" />DATASET</p>
-        <p> Some participants in the study consented to and submitted sample sms data. We developed a dataset of 15,299 SMS messages.
-            We categorized these as FRAUD, NORMAL and SPAM of which 1,370 are fraudulent, 1,826 are spam and 12,033 are normal. We are using
-            this dataset to develop a machine learning algorithm for SMS classification. This will help in detecting SMSs that are potentially
-            fraudulent.
+        <p class="intelSurv-section-title"><img src="../../assets/icons/dataset-icon.png" />LARGE DATASET</p>
+        <p> Some participants in the study consented to and submitted sample SMS data. We developed a dataset of 15,299 SMS messages. We
+            categorized these as FRAUD, NORMAL and SPAM of which 1,370 are fraudulent, 1,826 are spam and 12,033 are normal.  Once cleaned and
+            analysed, the machine learning models will be trained to test their performance for SMS classification. The results are expected to
+            provide further insights.
         </p>
     </div>
     <div class="intelSurv-page-section">
-        <p class="intelSurv-section-title"><img src="../../assets/icons/experiment-icon.png" />EXPERIMENTS PERFORMED</p>
-        <p> We used the dataset to experiment with machine learning algorithms to build a classifier. The dataset consists of the text of the SMS 
-            and other features such as phone number that sent the SMS, teh network, the day of the month when the message was reveived, etc. We manually annotated the dataset
-            and classify each message as spam, normal, fraud.
-            We also translated a subset of the dataset fully into English. We created carved out subsets based on selected features. We then 
-            developed predictors based in ML algorithms and compared their performance.
-        </p>
-    </div>
-    <div class="intelSurv-page-section">
-        <p class="intelSurv-section-title"><img src="../../assets/icons/results-icon.png" />EXPERIMENTS' RESULTS</p>
-        <p> Our experiments show that machine learning algorithms can effectively classify Chichewa SMS messages as fraudulent or
-            non-fraudulent. The Random Forest algorithms achieved a classification accuracy of 95%. Testing the Chichewa based model
-            on new SMS messages showed it could identify almost all Chichewa fraudulent messages, even with a relatively small dataset.
-            Translating the dataset to English improved accuracy to 99%, while machine translations achieved an accuracy of 91%. The Logistic
-            Regression model performed the best overall. Performance differences between models built on human-translated datasets from different
-            translators were minimal, suggesting either similar translations or a need for further study. Extracting less similar messages for
-            training did not significantly improve accuracy. Allowing all SMS features  improved model performance, while limiting them
-            diminished it.
+        <p class="intelSurv-section-title"><img src="../../assets/icons/experiment-icon.png" />RESULTS OF ML EXPERIMENTS PERFORMED ON THE SUBSET</p>
+        <p> A subset of 646 SMS messages, both fraudulent and normal, was used to experiment with machine learning algorithms to build a
+            classifier. Random Forest model achieved an accuracy of 97% while Logistic Regression achieved 96%. The subset was translated to
+            English by human translators and machine translator(Google Translate). The results show that Logistic Regression achieved the highest
+            accuracy of 96% while Random Forest came second with 95%. Both models' performance declined with machine translated dataset. Overall,
+            the results are promising and they have shown that machine learning can potentially be used to flag out fraudulent SMSs in the local
+            language. 
         </p>
     </div>
     <div class="intelSurv-page-section">
         <p class="intelSurv-section-title"><img src="../../assets/icons/workshop-icon.png" />SMS FRAUD AWARENESS DAY</p>
         <p>
-            The event was held at the Malawi University of Business and Applied Sciences(MUBAS), ODeL building  on 10th May 2024
-            from 14:00 PM to 16:00 pm. The event aimed at raising awareness on the existence of SMS fraud,  how people can identify fraudulent
-            SMS messages to protect themselves and how machine learning can be used to help combat the SMS fraud in Malawi.  On the machine
-            learning significance to combat SMS fraud, we highlighted our recent research findings from the research project titled “SMS Fraud
-            Detection Using Machine Learning in Malawi” The research aimed at investigating the potential of using machine learning to classify
-            Chichewa SMS messages as fraudulent and non-fraudulent. In attendance were the students from MUBAS who were involved in the SMS
-            data collection, members of staff, MSU Director of Publicity and Publications and the invited guests from TNM and Inq.
+            The event was held at the Malawi University of Business and Applied Sciences(MUBAS), ODeL building on 10th May 2024 from 14:00 PM
+            to 16:00 pm. The event aimed at raising awareness on the existence of SMS fraud, how people can identify fraudulent SMS messages
+            to protect themselves and how machine learning can be used to help combat the SMS fraud in Malawi. On the machine learning
+            significance to combat SMS fraud, we highlighted our recent research findings from the research project titled “SMS Fraud Detection
+            Using Machine Learning in Malawi” The research aimed at investigating the potential of using machine learning to classify Chichewa
+            SMS messages as fraudulent and non-fraudulent. In attendance were the students from MUBAS who were involved in the SMS data
+            collection, members of staff, MSU Director of Publicity and Publications and the invited guests from TNM and Inq.
             <a class="news-link" href="/events/past-events/SmsFraudDetection/">Read more <img class="see-more-icon" src="../../assets/icons/external-link-icon.svg" /></a>
         </p>
     </div>    
