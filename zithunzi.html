@@ -10,6 +10,7 @@ permalink: /zithunzi/
     <button id="dropdown-button" onclick="toggleDropdown()">Select Event</button>
     <div id="dropdown-content">
         <a class="dropdown-option" href="#" onclick="openLabEvent(event, 'allEvents')">All Events</a>
+        <a class="dropdown-option" href="#" onclick="openLabEvent(event, 'intEducationDay')">International Education Day (Mzuzu)</a>
         <a class="dropdown-option" href="#" onclick="openLabEvent(event, 'indabaXMalawi2024')">IndabaX Malawi 2024</a>
         <a class="dropdown-option" href="#" onclick="openLabEvent(event, 'InspireAGM2024')">The INSPIRE Network AGM 2024</a>
         <a class="dropdown-option" href="#" onclick="openLabEvent(event, 'smsFraudDay')">SMS Fraud Awareness Day</a>
@@ -25,6 +26,9 @@ permalink: /zithunzi/
 
 <div class="slides-container">
     <div id="allEvents" class="event-container">
+        <img class="image-slide fade" data-event="intEducationDay" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Int'%20Education%20Day/IMG_9587.JPG?updatedAt=1739530773248">
+        <img class="image-slide fade" data-event="intEducationDay" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Int'%20Education%20Day/IMG_9660.JPG?updatedAt=1739530749928">
+        <img class="image-slide fade" data-event="intEducationDay" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Int'%20Education%20Day/IMG_9653.JPG?updatedAt=1739530880221">
         <img class="image-slide fade" data-event="indabaXMalawi2024" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IndabaX_Malawi_2024_1.jpeg?updatedAt=1724762125334">
         <img class="image-slide fade" data-event="indabaXMalawi2024" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IndabaX_Malawi_2024_2.jpeg?updatedAt=1724762126271">
         <img class="image-slide fade" data-event="indabaXMalawi2024" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/IndabaX_Malawi_2024_3.jpeg?updatedAt=1724762126247">
@@ -51,6 +55,16 @@ permalink: /zithunzi/
         <p class="slide-counter"></p>
         <a class="prev" onclick="plusSlides(-1, 'allEvents')">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 'allEvents')">&#10095;</a>
+    </div>
+
+    <div id="intEducationDay" class="event-container fade">
+        <img class="image-slide fade" data-event="intEducationDay" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Int'%20Education%20Day/IMG_9587.JPG?updatedAt=1739530773248">
+        <img class="image-slide fade" data-event="intEducationDay" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Int'%20Education%20Day/IMG_9660.JPG?updatedAt=1739530749928">
+        <img class="image-slide fade" data-event="intEducationDay" src="https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Int'%20Education%20Day/IMG_9653.JPG?updatedAt=1739530880221">
+        <p class="image-caption"></p>
+        <p class="slide-counter"></p>
+        <a class="prev" onclick="plusSlides(-1, 'intEducationDay')">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 'intEducationDay')">&#10095;</a>
     </div>
 
     <div id="indabaXMalawi2024" class="event-container fade">
@@ -163,7 +177,8 @@ permalink: /zithunzi/
         showSlides(1, labEvent)
         toggleDropdown()
     }
-    var slideInfo = {allEvents : {slideIndex : 1, caption: ''},
+    var slideInfo = {allEvents : {slideIndex : 1, caption: ''},    
+     intEducationDay : {slideIndex: 1, caption : "International Education Day 2025"},     
      indabaXMalawi2024 : {slideIndex: 1, caption : "IndabaX Malawi 2024"},
      InspireAGM2024: {slideIndex: 1, caption : "The INSPIRE Network AGM 2024"},   
      smsFraudDay : {slideIndex : 1, caption : 'SMS Fraud Awareness Day: 10th May 2024, Blantyre'},
