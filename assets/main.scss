@@ -391,6 +391,20 @@
 .sms-blog-images{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  .sms-blog-image{
+    justify-content: center;
+  }
+
+}
+.blog-table-container{
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  th{
+    position: sticky;
+    top: 0;
+  }
 }
 
 //partner page
