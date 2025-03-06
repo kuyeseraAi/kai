@@ -542,4 +542,9 @@
   #sms-blog-images{
     display: block;
   } 
+  .blog-table-container{
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+  }
 }
