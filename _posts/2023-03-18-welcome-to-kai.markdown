@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to KAI Lab!"
 date:   2023-03-18 16:13:09 +0200
 author: Dr. Amelia Taylor
+show_back_arrow: true
+back_link: /blog/
 image: https://ik.imagekit.io/xnaedr4r6/KAI_Website_Images/Team_Images_With_Uniform_Background/A_Taylor.jpg?updatedAt=1722240427789
 excerpt: This is a brief write-up on how the *KAI Lab* started. This is now written from my perspective as a founder ("my"" refers to Amelia
     Taylor). But I do hope that at some point others will write something too about this group.    

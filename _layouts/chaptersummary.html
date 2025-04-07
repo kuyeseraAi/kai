@@ -4,6 +4,9 @@ layout: default
 <article class="post">
 
   <header class="post-header">
+    {% if page.show_back_arrow and page.back_link %}
+      <a href="{{ page.back_link }}"><img src="../../../assets/icons/back-arrow-icon.svg" /></a>
+    {% endif %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
     <!--<h2 class="post-tagline"> {{ page.highlights}} </h2>-->
   </header> 
