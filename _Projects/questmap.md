@@ -4,7 +4,7 @@ title: QuestMap
 order: 4
 nav: true
 show_back_arrow: true
-back_link: /projects/
+back_link: /projects
 ---
 Using and comparing data collected through questionnaires can be a valuable method for gathering information. 
 In our recent research study, we examined COVID-19 data collected via the Integrated Disease Surveillance and Reporting Case Based Form in Malawi and Kenya. We found that while this form was based on the WHO CRF form intended for global use, there were notable challenges associated with its implementation for data collection purposes. These challenges had an impact on the quality and reliability of the data, as well as subsequent analyses conducted based on it.
