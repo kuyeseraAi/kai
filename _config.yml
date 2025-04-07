@@ -54,6 +54,9 @@ collections:
   Projects:
     output: true
     permalink: /projects/:path/
+  Chichewa_NLP_Projects:
+    output: true
+    permalink: /chichewa_nlp_projects/:path/
 
 
 
