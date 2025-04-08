@@ -57,6 +57,10 @@ collections:
   Chichewa_NLP_Projects:
     output: true
     permalink: /chichewa_nlp_projects/:path/
+  Sub_Pages:
+    output: true
+    permalink: /news/:path/
+
 
 
 
