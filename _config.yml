@@ -51,6 +51,9 @@ collections:
   Past_events:
     output: true 
     permalink: /events/past-events/:path/
+  Upcoming_events:
+    output: true 
+    permalink: /events/upcoming-events/:path/
   Projects:
     output: true
     permalink: /projects/:path/

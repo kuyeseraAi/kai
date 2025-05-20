@@ -6,22 +6,41 @@ nav: true
 image: /assets/KAIlogo_50.png
 description: The events that the lab has been organised/involved in
 ---
+
 <div>
-  <h3 id="past_events"> <i>Past Events</i> </h3>
+  <div>
+    <h3 id="past_events"> <i>Upcoming Events</i> </h3>
 
-  {% assign sorted_events = site.Past_events | sort:"chapter" %}
-  {% for entry in sorted_events %}
-    <h4>
-      <a href="{{site.baseurl}}{{entry.url}}">
-        {{ entry.title }}
+    {% assign sorted_events = site.Upcoming_events | sort:"chapter" %}
+    {% for entry in sorted_events %}
+      <h4>
+        <a href="{{site.baseurl}}{{entry.url}}">
+          {{ entry.title }}
+        </a>
+      </h4>
+      <p style="text-align:left;"> 
+      <a class="" href="{{site.baseurl}}{{page.url}}#top">
       </a>
-    </h4>
-    <p style="text-align:left;"> 
-    <a class="" href="{{site.baseurl}}{{page.url}}#top">
-    </a>
-    </p>
-    <p>{{ entry.highlights | markdownify }}</p>
-  {% endfor %}
-</div>
+      </p>
+      <p>{{ entry.highlights | markdownify }}</p>
+    {% endfor %}
+  </div>
+  <div>
+    <h3 id="past_events"> <i>Past Events</i> </h3>
 
+    {% assign sorted_events = site.Past_events | sort:"chapter" %}
+    {% for entry in sorted_events %}
+      <h4>
+        <a href="{{site.baseurl}}{{entry.url}}">
+          {{ entry.title }}
+        </a>
+      </h4>
+      <p style="text-align:left;"> 
+      <a class="" href="{{site.baseurl}}{{page.url}}#top">
+      </a>
+      </p>
+      <p>{{ entry.highlights | markdownify }}</p>
+    {% endfor %}
+  </div>
+</div>
 
